@@ -234,6 +234,8 @@
   @media all and (max-width: 580px) {
     .resort-banner__sunshine-days {
       margin-top: -310px; }
+    .resort-banner__sunshine-days:nth-child(2) {
+      margin-left: -65px; }
     .resort-banner__hotel-price {
       padding-top: 0; }
     .resort-banner__value:nth-child(n+3) {
@@ -247,8 +249,6 @@
     .resort-banner__sunshine-days {
       margin-top: -355px;
       right: 19%; }
-    .resort-banner__sunshine-days:nth-child(2) {
-      margin-left: 0; }
     .resort-banner__value:last-child {
       margin-left: 90px; }
     .resort-banner__offer-name {
