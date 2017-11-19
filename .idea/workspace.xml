@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="075293f0-a14f-4c7d-bb35-48c54274c1c9" name="Default" comment="">
+    <list default="true" id="075293f0-a14f-4c7d-bb35-48c54274c1c9" name="Default" comment="changed">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,8 +57,8 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1668">
-                  <caret line="292" column="24" lean-forward="true" selection-start-line="292" selection-start-column="24" selection-end-line="292" selection-end-column="24" />
+                <state relative-caret-position="325">
+                  <caret line="306" column="22" lean-forward="true" selection-start-line="306" selection-start-column="22" selection-end-line="306" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -219,7 +221,7 @@
       <workItem from="1510990732206" duration="4802000" />
       <workItem from="1511003948487" duration="24100000" />
       <workItem from="1511101702087" duration="2060000" />
-      <workItem from="1511123884972" duration="6342000" />
+      <workItem from="1511123884972" duration="6715000" />
     </task>
     <task id="LOCAL-00001" summary="replaced stylesheet link to body for best Google Page Speed; added adaptive fixes (473px);">
       <created>1511128594234</created>
@@ -242,11 +244,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511130829615</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed media 540px">
+      <created>1511130845035</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1511130845035</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91009000" />
+    <option name="totallyTimeSpent" value="91382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -683,8 +692,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1668">
-          <caret line="292" column="24" lean-forward="true" selection-start-line="292" selection-start-column="24" selection-end-line="292" selection-end-column="24" />
+        <state relative-caret-position="325">
+          <caret line="306" column="22" lean-forward="true" selection-start-line="306" selection-start-column="22" selection-end-line="306" selection-end-column="22" />
           <folding />
         </state>
       </provider>
