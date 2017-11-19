@@ -15,7 +15,8 @@
       font-size: 35px;
       position: absolute;
       transform: rotate(11deg);
-      margin: -32px 0 0 205px; }
+      margin-top: -32px;
+      margin-left: 205px; }
   .footer__social {
     height: 1px;
     border-top: 2px solid #777777; }

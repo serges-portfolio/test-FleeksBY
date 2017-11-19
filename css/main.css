@@ -243,3 +243,14 @@
     .resort-banner__offer-name {
       font-size: 22px;
       margin-top: 24px; } }
+  @media all and (max-width: 473px) {
+    .resort-banner__sunshine-days {
+      margin-top: -355px;
+      right: 19%; }
+    .resort-banner__value:last-child {
+      margin-left: 90px; }
+    .resort-banner__offer-name {
+      font-size: 20px; }
+    .resort-banner__offer-price {
+      font-size: 40px;
+      top: -122px; } }

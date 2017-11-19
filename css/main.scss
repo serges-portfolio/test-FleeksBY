@@ -304,6 +304,22 @@
       margin-top: 24px;
     }
   }
+  @media all and (max-width: 473px) {
+    &__sunshine-days {
+      margin-top: -355px;
+      right: 19%;
+    }
+    &__value:last-child {
+      margin-left: 90px;
+    }
+    &__offer-name {
+      font-size: 20px;
+    }
+    &__offer-price {
+      font-size: 40px;
+      top: -122px;
+    }
+  }
 }
 
 

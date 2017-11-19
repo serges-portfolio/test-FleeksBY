@@ -121,5 +121,10 @@
       font-size: 27px;
     }
   }
+  @media all and (max-width: 480px) {
+    &__title {
+      font-size: 22px;
+    }
+  }
 }
 
