@@ -1,0 +1,311 @@
+.resort-banner {
+  display: flex;
+  width: 75%;
+  height: 760px;
+  background: url("../assets/header-banner.png") 100%, no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  font-family: "Trebuchet MS", sans-serif;
+
+  &__tour-banner {
+    display: block;
+    position: relative;
+    width: 230px;
+    height: 230px;
+    background-color: rgba(255, 242, 0, 0.7);
+    border-radius: 50%;
+    text-align: center;
+    margin: 474px 0 28px 28px;
+    :nth-child(2) {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 700;
+      margin: 0;
+      text-transform: uppercase;
+      padding-bottom: 5px;
+    }
+    :nth-child(3) {
+      display: block;
+      border: 1px solid transparent;
+      border-radius: 1px;
+      width: 109px;
+      background-color: #000000;
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+  &__tour-name {
+    display: block;
+    max-width: 141px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    white-space: pre;
+    margin: 0;
+  }
+  &__hotel-description {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+  }
+  &__hotel {
+    display: inline-block;
+    float: left;
+    width: 295px;
+    position: relative;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: "Trebuchet MS", sans-serif;
+  }
+  &__hotel-price {
+    display: inline-block;
+    margin-top: 0;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 28px;
+    &:before {
+      content: url("../assets/3-stars.png");
+      padding: 0 33px;
+    }
+  }
+  &__rating {
+    display: block;
+    padding-left: 0;
+    max-width: 600px;
+  }
+  &__value {
+    display: inline-block;
+    &:first-child {
+      color: #000000;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 18px;
+      a {
+        color: #777777;
+        text-decoration: none;
+      }
+    }
+    &:nth-child(2) {
+      width: 50px;
+      height: 51px;
+      background-color: #00bff3;
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 18px;
+      text-align: center;
+      padding-top: 14px;
+      margin: 0 27px 0 33px;
+    }
+    p {
+      margin: 0;
+    }
+    &:nth-child(n+3) p {
+      padding-right: 19px;
+      &:first-child {
+        color: #777777;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+      }
+    }
+    &:nth-child(n+3) b {
+      color: #000000;
+      font-size: 18px;
+    }
+  }
+
+  &__sunshine-days {
+    width: 160px;
+    position: absolute;
+    text-align: center;
+    margin-top: -250px;
+    right: 22%;
+    :first-child {
+      color: #777777;
+      font-size: 100px;
+      font-weight: 400;
+      margin: 0;
+    }
+    :nth-child(2) {
+      color: #000000;
+      font-family: "Arial", sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      margin: 0;
+    }
+  }
+  &__other-offers {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 12.5%;
+  }
+
+  &__offer {
+    max-width: 502px;
+    min-width: 310px;
+    max-height: 350px;
+    &:first-child {
+      padding-right: 2%;
+    }
+  }
+  &__photo {
+    display: block;
+    width: 100%;
+    height: 270px;
+  }
+  &__offer-name {
+    display: block;
+    float: left;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  &__second-name {
+    display: block;
+    width: 180px;
+    clear: left;
+    color: #777777;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-right: 0;
+  }
+  &__offer-price {
+    position: relative;
+    color: #000000;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    float: right;
+    top: -142px;
+  }
+
+  &__offer-old-price {
+    float: right;
+    position: relative;
+    margin-top: 0;
+    margin-right: -110px;
+    top: -40px;
+    color: #777777;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    :first-child {
+      position: relative;
+      top: -6px;
+      left: -40px;
+    }
+  }
+  @media all and (max-width: 1366px) {
+    &__sunshine-days {
+      margin-top: -270px;
+      right: 25%;
+    }
+  }
+  @media all and (max-width: 1240px) {
+    &__other-offers {
+      flex-direction: column;
+    }
+    &__sunshine-days {
+      margin-top: -260px;
+      width: 100px;
+      right: 31%;
+      :first-child {
+        font-size: 55px;
+      }
+      :nth-child(2) {
+        position: relative;
+        font-size: 18px;
+        width: 200px;
+        margin-left: -60px;
+      }
+    }
+    &__offer {
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+  }
+  @media all and (max-width: 920px) {
+    &__sunshine-days {
+      right: 37%;
+    }
+  }
+  @media all and (max-width: 800px) {
+    width: 90%;
+    height: 360px;
+    &__tour-banner {
+      margin-top: 100px;
+    }
+    &__sunshine-days {
+      margin-top: -220px;
+      right: 14%;
+      :first-child {
+        font-size: 30px;
+      }
+      :nth-child(2) {
+        position: relative;
+        font-size: 14px;
+        width: 150px;
+        margin-left: -40px;
+      }
+    }
+    &__value:nth-child(2) {
+      margin: 0 15px 0 15px;
+    }
+    &__hotel-description {
+      width: 90%;
+    }
+  }
+  @media all and (max-width: 630px) {
+    &__value {
+
+      &:first-child {
+        position: relative;
+        display: block;
+        margin-top: -20px;
+        padding-bottom: 10px;
+        width: 110px;
+      }
+    }
+    &__sunshine-days {
+      margin-top: -250px;
+    }
+  }
+  @media all and (max-width: 580px) {
+    &__sunshine-days {
+      margin-top: -310px;
+    }
+    &__hotel-price {
+      padding-top: 0;
+    }
+    &__value:nth-child(n+3) {
+      margin-left: 8px;
+      p:first-child  {
+        padding-right: 0;
+      }
+    }
+    &__offer-name {
+      font-size: 22px;
+      margin-top: 24px;
+    }
+  }
+}
+
+
+
+

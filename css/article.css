@@ -1,0 +1,98 @@
+.temperature {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  font-family: Arial, sans-serif; }
+  .temperature__title {
+    display: inline-block;
+    height: 102px;
+    color: #000000;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px; }
+  .temperature__article {
+    display: block;
+    max-width: 768px;
+    font-size: 14px;
+    font-weight: 400; }
+    .temperature__article :first-child {
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 0; }
+    .temperature__article :nth-child(5) {
+      background-color: rgba(0, 191, 243, 0.06);
+      padding-left: 5px;
+      margin-left: 30px;
+      border-left: 3px solid rgba(0, 191, 243, 0.8); }
+    .temperature__article :nth-child(7) {
+      margin-bottom: 4px; }
+    .temperature__article :nth-child(8) {
+      margin-top: 0; }
+  .temperature__table {
+    display: block;
+    border-collapse: collapse;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px; }
+    .temperature__table tr {
+      border-bottom: 2px solid #ebebeb; }
+    .temperature__table tr:first-child {
+      background-color: #ebebeb;
+      border-bottom: 2px solid #777777; }
+    .temperature__table td {
+      padding-right: 30px; }
+    .temperature__table td:first-child {
+      padding-left: 15px; }
+    .temperature__table td:last-child {
+      padding-right: 15px; }
+  .temperature__find-symptoms {
+    display: block;
+    text-align: left;
+    white-space: pre-wrap;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; }
+  .temperature__whr {
+    display: block;
+    align-self: flex-end;
+    position: absolute;
+    font-family: "Trebuchet MS", sans-serif;
+    width: 213px;
+    padding-top: 260px; }
+  .temperature__coefficient {
+    color: #777777;
+    font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 4px; }
+  .temperature__whr-woman {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0; }
+  .temperature__health-scale {
+    color: #777777;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    white-space: pre-line; }
+  @media all and (max-width: 1350px) {
+    .temperature__whr {
+      align-self: flex-start;
+      position: relative;
+      padding-top: 0; }
+    .temperature__coefficient {
+      margin-top: 0; } }
+  @media all and (max-width: 896px) {
+    .temperature__table {
+      width: 100%;
+      overflow-x: auto; }
+    .temperature__title {
+      font-size: 35px;
+      line-height: 40px;
+      margin-bottom: 0; } }
+  @media all and (max-width: 615px) {
+    .temperature__title {
+      font-size: 27px; } }
