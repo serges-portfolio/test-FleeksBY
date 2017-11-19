@@ -43,3 +43,6 @@
   @media all and (max-width: 680px) {
     .footer__test {
       width: 100%; } }
+  @media all and (max-width: 316px) {
+    .footer__elapsed-time p {
+      margin-left: 0; } }

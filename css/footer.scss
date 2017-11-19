@@ -53,4 +53,9 @@
       width: 100%;
     }
   }
+  @media all and (max-width: 316px) {
+  &__elapsed-time p {
+    margin-left: 0;
+  }
+  }
 }
