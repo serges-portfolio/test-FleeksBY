@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="075293f0-a14f-4c7d-bb35-48c54274c1c9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/footer.css" afterPath="$PROJECT_DIR$/css/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/footer.scss" afterPath="$PROJECT_DIR$/css/footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -224,7 +219,7 @@
       <workItem from="1510990732206" duration="4802000" />
       <workItem from="1511003948487" duration="24100000" />
       <workItem from="1511101702087" duration="2060000" />
-      <workItem from="1511123884972" duration="6293000" />
+      <workItem from="1511123884972" duration="6342000" />
     </task>
     <task id="LOCAL-00001" summary="replaced stylesheet link to body for best Google Page Speed; added adaptive fixes (473px);">
       <created>1511128594234</created>
@@ -240,11 +235,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511129710147</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed media 540px">
+      <created>1511130829615</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511130829615</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90960000" />
+    <option name="totallyTimeSpent" value="91009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -277,7 +279,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="replaced stylesheet link to body for best Google Page Speed; added adaptive fixes (473px);" />
     <MESSAGE value="turned back link to head" />
-    <option name="LAST_COMMIT_MESSAGE" value="turned back link to head" />
+    <MESSAGE value="fixed media 540px" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed media 540px" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
