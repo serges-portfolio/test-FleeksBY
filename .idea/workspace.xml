@@ -22,8 +22,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2788">
-                  <caret line="164" column="10" lean-forward="true" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
+                <state relative-caret-position="257">
+                  <caret line="166" column="8" lean-forward="false" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -233,7 +233,7 @@
       <workItem from="1511003948487" duration="24100000" />
       <workItem from="1511101702087" duration="2060000" />
       <workItem from="1511123884972" duration="7728000" />
-      <workItem from="1511171113089" duration="2692000" />
+      <workItem from="1511171113089" duration="2984000" />
     </task>
     <task id="LOCAL-00001" summary="replaced stylesheet link to body for best Google Page Speed; added adaptive fixes (473px);">
       <created>1511128594234</created>
@@ -305,11 +305,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511174302015</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="repaired warnings W3C">
+      <created>1511175184019</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1511175184019</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95087000" />
+    <option name="totallyTimeSpent" value="95379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -349,7 +356,8 @@
     <MESSAGE value="increase GSP attempt #1" />
     <MESSAGE value="increase GSP attempt #2 (@import-disabled, added &quot;link&quot; with stylesheets)" />
     <MESSAGE value="increase GSP attempt #3 (@import-disabled, all stylesheets replaced in style.css)" />
-    <option name="LAST_COMMIT_MESSAGE" value="increase GSP attempt #3 (@import-disabled, all stylesheets replaced in style.css)" />
+    <MESSAGE value="repaired warnings W3C" />
+    <option name="LAST_COMMIT_MESSAGE" value="repaired warnings W3C" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -752,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2788">
-          <caret line="164" column="10" lean-forward="true" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
+        <state relative-caret-position="257">
+          <caret line="166" column="8" lean-forward="false" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="8" />
           <folding />
         </state>
       </provider>
