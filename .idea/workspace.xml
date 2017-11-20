@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="075293f0-a14f-4c7d-bb35-48c54274c1c9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,8 +22,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+                <state relative-caret-position="2788">
+                  <caret line="164" column="10" lean-forward="true" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -45,20 +43,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="footer.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="footer.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="1" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="424">
+                <state relative-caret-position="628">
                   <caret line="637" column="1" lean-forward="true" selection-start-line="637" selection-start-column="1" selection-end-line="637" selection-end-column="1" />
                   <folding />
                 </state>
@@ -94,6 +92,7 @@
       <find>h1</find>
       <find>old</find>
       <find>320</find>
+      <find>h5</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -234,7 +233,7 @@
       <workItem from="1511003948487" duration="24100000" />
       <workItem from="1511101702087" duration="2060000" />
       <workItem from="1511123884972" duration="7728000" />
-      <workItem from="1511171113089" duration="1931000" />
+      <workItem from="1511171113089" duration="2692000" />
     </task>
     <task id="LOCAL-00001" summary="replaced stylesheet link to body for best Google Page Speed; added adaptive fixes (473px);">
       <created>1511128594234</created>
@@ -299,11 +298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1511173854856</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="increase GSP attempt #3 (@import-disabled, all stylesheets replaced in style.css)">
+      <created>1511174302015</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1511174302015</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94326000" />
+    <option name="totallyTimeSpent" value="95087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -342,7 +348,8 @@
     <MESSAGE value="repaired .sunshine-days (580px)" />
     <MESSAGE value="increase GSP attempt #1" />
     <MESSAGE value="increase GSP attempt #2 (@import-disabled, added &quot;link&quot; with stylesheets)" />
-    <option name="LAST_COMMIT_MESSAGE" value="increase GSP attempt #2 (@import-disabled, added &quot;link&quot; with stylesheets)" />
+    <MESSAGE value="increase GSP attempt #3 (@import-disabled, all stylesheets replaced in style.css)" />
+    <option name="LAST_COMMIT_MESSAGE" value="increase GSP attempt #3 (@import-disabled, all stylesheets replaced in style.css)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -727,26 +734,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/footer.scss">
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="1" />
+        <state relative-caret-position="628">
+          <caret line="637" column="1" lean-forward="true" selection-start-line="637" selection-start-column="1" selection-end-line="637" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/css/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="637" column="1" lean-forward="true" selection-start-line="637" selection-start-column="1" selection-end-line="637" selection-end-column="1" />
+        <state relative-caret-position="68">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="2788">
+          <caret line="164" column="10" lean-forward="true" selection-start-line="164" selection-start-column="10" selection-end-line="164" selection-end-column="10" />
           <folding />
         </state>
       </provider>
