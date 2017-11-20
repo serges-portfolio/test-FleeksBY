@@ -1,7 +1,3 @@
-@import url(header.css);
-@import url(main.css);
-@import url(article.css);
-@import url(footer.css);
 *,
 *:before,
 *:after {
@@ -12,3 +8,495 @@ body {
 
 main {
   margin-top: -2px; }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  background-color: #00bff3;
+  margin: 0 auto;
+  font-family: "Arial", sans-serif; }
+  .header__logo-container {
+    display: block;
+    padding-top: 29px;
+    order: 0; }
+  .header__logo-title {
+    width: 142px;
+    float: right;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 8px;
+    padding-left: 12px;
+    margin: 0; }
+  .header__call-container {
+    display: block;
+    max-width: 330px;
+    min-width: 192px;
+    min-height: 30px;
+    padding-top: 45px;
+    padding-bottom: 38px; }
+  .header__contact-number {
+    float: left;
+    width: 200px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0; }
+  .header__callback {
+    display: block;
+    float: right;
+    width: 126px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 8px;
+    text-decoration: none; }
+    .header__callback:hover {
+      color: green;
+      transition: 0.8s; }
+  .header__social-container {
+    display: block;
+    padding-top: 38px;
+    order: 1; }
+    .header__social-container img {
+      padding: 5px;
+      border-radius: 50%; }
+      .header__social-container img:hover {
+        transform: scale(1.2);
+        background-color: #dfd4dd;
+        transition: 0.8s; }
+  @media all and (max-width: 860px) {
+    .header__logo-title {
+      float: none; }
+    .header__call-container {
+      order: 2; }
+    .header__callback {
+      float: none; } }
+  @media all and (max-width: 640px) {
+    .header {
+      flex-direction: column;
+      align-items: center; }
+      .header__logo-title {
+        text-align: center; }
+      .header__call-container {
+        padding: 20px; }
+      .header__callback {
+        width: 100%;
+        text-align: center; } }
+
+.resort-banner {
+  display: flex;
+  width: 75%;
+  height: 760px;
+  background: url("../assets/header-banner.png") 100%, no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  font-family: "Trebuchet MS", sans-serif; }
+  .resort-banner__tour-banner {
+    display: block;
+    position: relative;
+    width: 230px;
+    height: 230px;
+    background-color: rgba(255, 242, 0, 0.7);
+    border-radius: 50%;
+    text-align: center;
+    margin: 474px 0 28px 28px; }
+    .resort-banner__tour-banner :nth-child(2) {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 700;
+      margin: 0;
+      text-transform: uppercase;
+      padding-bottom: 5px; }
+    .resort-banner__tour-banner :nth-child(3) {
+      display: block;
+      border: 1px solid transparent;
+      border-radius: 1px;
+      width: 109px;
+      background-color: #000000;
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      margin: 0 auto; }
+  .resort-banner__tour-name {
+    display: block;
+    max-width: 141px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 700;
+    white-space: pre;
+    margin: 0; }
+  .resort-banner__hotel-description {
+    display: block;
+    margin: 0 auto;
+    width: 75%; }
+  .resort-banner__hotel {
+    display: inline-block;
+    float: left;
+    width: 295px;
+    position: relative;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: "Trebuchet MS", sans-serif; }
+  .resort-banner__hotel-price {
+    display: inline-block;
+    margin-top: 0;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 28px; }
+    .resort-banner__hotel-price:before {
+      content: url("../assets/3-stars.png");
+      padding: 0 33px; }
+  .resort-banner__rating {
+    display: block;
+    padding-left: 0;
+    max-width: 600px; }
+  .resort-banner__value {
+    display: inline-block; }
+    .resort-banner__value:first-child {
+      color: #000000;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 18px; }
+      .resort-banner__value:first-child a {
+        color: #777777;
+        text-decoration: none; }
+    .resort-banner__value:nth-child(2) {
+      width: 50px;
+      height: 51px;
+      background-color: #00bff3;
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 18px;
+      text-align: center;
+      padding-top: 14px;
+      margin: 0 27px 0 33px; }
+    .resort-banner__value p {
+      margin: 0; }
+    .resort-banner__value:nth-child(n+3) p {
+      padding-right: 19px; }
+      .resort-banner__value:nth-child(n+3) p:first-child {
+        color: #777777;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+        text-transform: uppercase;
+        letter-spacing: 0.6px; }
+    .resort-banner__value:nth-child(n+3) b {
+      color: #000000;
+      font-size: 18px; }
+  .resort-banner__sunshine-days {
+    width: 160px;
+    position: absolute;
+    text-align: center;
+    margin-top: -250px;
+    right: 22%; }
+    .resort-banner__sunshine-days :first-child {
+      color: #777777;
+      font-size: 100px;
+      font-weight: 400;
+      margin: 0; }
+    .resort-banner__sunshine-days :nth-child(2) {
+      color: #000000;
+      font-family: "Arial", sans-serif;
+      font-size: 30px;
+      font-weight: 400;
+      margin: 0; }
+  .resort-banner__other-offers {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 12.5%; }
+  .resort-banner__offer {
+    max-width: 502px;
+    min-width: 310px;
+    max-height: 350px; }
+    .resort-banner__offer:first-child {
+      padding-right: 2%; }
+  .resort-banner__photo {
+    display: block;
+    width: 100%;
+    height: 270px; }
+  .resort-banner__offer-name {
+    display: block;
+    float: left;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px; }
+  .resort-banner__second-name {
+    display: block;
+    width: 180px;
+    clear: left;
+    color: #777777;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-right: 0; }
+  .resort-banner__offer-price {
+    position: relative;
+    color: #000000;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    float: right;
+    top: -142px; }
+  .resort-banner__offer-old-price {
+    float: right;
+    position: relative;
+    margin-top: 0;
+    margin-right: -110px;
+    top: -40px;
+    color: #777777;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    font-weight: 400; }
+    .resort-banner__offer-old-price :first-child {
+      position: relative;
+      top: -6px;
+      left: -40px; }
+  @media all and (max-width: 1366px) {
+    .resort-banner__sunshine-days {
+      margin-top: -270px;
+      right: 25%; } }
+  @media all and (max-width: 1240px) {
+    .resort-banner__other-offers {
+      flex-direction: column; }
+    .resort-banner__sunshine-days {
+      margin-top: -260px;
+      width: 100px;
+      right: 31%; }
+      .resort-banner__sunshine-days :first-child {
+        font-size: 55px; }
+      .resort-banner__sunshine-days :nth-child(2) {
+        position: relative;
+        font-size: 18px;
+        width: 200px;
+        margin-left: -60px; }
+    .resort-banner__offer {
+      margin-top: 0;
+      margin-bottom: 40px; } }
+  @media all and (max-width: 920px) {
+    .resort-banner__sunshine-days {
+      right: 37%; } }
+  @media all and (max-width: 800px) {
+    .resort-banner {
+      width: 90%;
+      height: 360px; }
+      .resort-banner__tour-banner {
+        margin-top: 100px; }
+      .resort-banner__sunshine-days {
+        margin-top: -220px;
+        right: 14%; }
+        .resort-banner__sunshine-days :first-child {
+          font-size: 30px; }
+        .resort-banner__sunshine-days :nth-child(2) {
+          position: relative;
+          font-size: 14px;
+          width: 150px;
+          margin-left: -40px; }
+      .resort-banner__value:nth-child(2) {
+        margin: 0 15px 0 15px; }
+      .resort-banner__hotel-description {
+        width: 90%; } }
+  @media all and (max-width: 630px) {
+    .resort-banner__value:first-child {
+      position: relative;
+      display: block;
+      margin-top: -20px;
+      padding-bottom: 10px;
+      width: 110px; }
+    .resort-banner__sunshine-days {
+      margin-top: -250px; } }
+  @media all and (max-width: 580px) {
+    .resort-banner__sunshine-days {
+      margin-top: -310px; }
+      .resort-banner__sunshine-days :nth-child(2) {
+        margin-left: -80px;
+        font-size: 12px; }
+    .resort-banner__hotel-price {
+      padding-top: 0; }
+    .resort-banner__value:nth-child(n+3) {
+      margin-left: 8px; }
+      .resort-banner__value:nth-child(n+3) p:first-child {
+        padding-right: 0; }
+    .resort-banner__offer-name {
+      font-size: 22px;
+      margin-top: 24px; } }
+  @media all and (max-width: 473px) {
+    .resort-banner__sunshine-days {
+      margin-top: -355px;
+      right: 19%; }
+    .resort-banner__value:last-child {
+      margin-left: 90px; }
+    .resort-banner__offer-name {
+      font-size: 20px; }
+    .resort-banner__offer-price {
+      font-size: 40px;
+      top: -122px; } }
+
+.temperature {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  font-family: Arial, sans-serif; }
+  .temperature__title {
+    display: inline-block;
+    height: 102px;
+    color: #000000;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px; }
+  .temperature__article {
+    display: block;
+    max-width: 768px;
+    font-size: 14px;
+    font-weight: 400; }
+    .temperature__article :first-child {
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 0; }
+    .temperature__article :nth-child(5) {
+      background-color: rgba(0, 191, 243, 0.06);
+      padding-left: 5px;
+      margin-left: 30px;
+      border-left: 3px solid rgba(0, 191, 243, 0.8); }
+    .temperature__article :nth-child(7) {
+      margin-bottom: 4px; }
+    .temperature__article :nth-child(8) {
+      margin-top: 0; }
+  .temperature__table {
+    display: block;
+    border-collapse: collapse;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px; }
+    .temperature__table tr {
+      border-bottom: 2px solid #ebebeb; }
+    .temperature__table tr:first-child {
+      background-color: #ebebeb;
+      border-bottom: 2px solid #777777; }
+    .temperature__table td {
+      padding-right: 30px; }
+    .temperature__table td:first-child {
+      padding-left: 15px; }
+    .temperature__table td:last-child {
+      padding-right: 15px; }
+  .temperature__find-symptoms {
+    display: block;
+    text-align: left;
+    white-space: pre-wrap;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; }
+  .temperature__whr {
+    display: block;
+    align-self: flex-end;
+    position: absolute;
+    font-family: "Trebuchet MS", sans-serif;
+    width: 213px;
+    padding-top: 260px; }
+  .temperature__coefficient {
+    color: #777777;
+    font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 4px; }
+  .temperature__whr-woman {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0; }
+  .temperature__health-scale {
+    color: #777777;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    white-space: pre-line; }
+  @media all and (max-width: 1350px) {
+    .temperature__whr {
+      align-self: flex-start;
+      position: relative;
+      padding-top: 0; }
+    .temperature__coefficient {
+      margin-top: 0; } }
+  @media all and (max-width: 896px) {
+    .temperature__table {
+      width: 100%;
+      overflow-x: auto; }
+    .temperature__title {
+      font-size: 35px;
+      line-height: 40px;
+      margin-bottom: 0; } }
+  @media all and (max-width: 615px) {
+    .temperature__title {
+      font-size: 27px; } }
+  @media all and (max-width: 480px) {
+    .temperature__title {
+      font-size: 20px; } }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  width: 75%;
+  margin: 0 auto; }
+  .footer__elapsed-time {
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px; }
+    .footer__elapsed-time p {
+      color: #1f4877;
+      opacity: 0.8;
+      font-family: Impact;
+      font-size: 35px;
+      position: absolute;
+      transform: rotate(11deg);
+      margin-top: -32px;
+      margin-left: 205px; }
+  .footer__social {
+    height: 1px;
+    border-top: 2px solid #777777; }
+    .footer__social a {
+      display: inline-block;
+      float: right;
+      text-decoration: none;
+      padding: 9px 10px 7px 0; }
+  .footer__social-icons {
+    border-radius: 50%; }
+    .footer__social-icons:hover {
+      transform: scale(1.2);
+      background-color: #2a48ff;
+      transition: 0.8s; }
+  .footer__test {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    width: 370px;
+    float: left;
+    margin-top: 19px; }
+    .footer__test b {
+      color: #00a2ff; }
+  @media all and (max-width: 680px) {
+    .footer__test {
+      width: 100%; } }
+  @media all and (max-width: 540px) {
+    .footer__elapsed-time {
+      white-space: pre; }
+      .footer__elapsed-time p {
+        margin-left: 0;
+        padding-left: 20px; } }
